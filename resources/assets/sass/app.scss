@@ -1,0 +1,22 @@
+@import "materialize";
+
+body {
+	background-color: color("grey", "lighten-3")
+}
+
+.welcome-message {
+	margin-top: 5%;
+}
+
+.weekday-picker {
+	display: inline-block;
+	width: 200px;
+}
+
+#nav-wrapper {
+	margin-left: 10px;
+}
+
+h3 {
+	margin-top: 0px;
+}

@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'rebuild', 'node-sass' ]
+2 info using npm@3.6.0
+3 info using node@v5.7.0
+4 info readInstalled object
+5 verbose rebuild path, id [ '/home/vagrant/Code/Laravel/node_modules/node-sass',
+5 verbose rebuild   'node-sass@3.4.2' ]
+6 silly rebuild set [ '/home/vagrant/Code/Laravel/node_modules/node-sass' ]
+7 info build /home/vagrant/Code/Laravel/node_modules/node-sass
+8 info lifecycle node-sass@3.4.2~preinstall: node-sass@3.4.2
+9 silly lifecycle node-sass@3.4.2~preinstall: no script for preinstall, continuing
+10 info linkStuff node-sass@3.4.2
+11 silly linkStuff node-sass@3.4.2 has /home/vagrant/Code/Laravel/node_modules as its parent node_modules
+12 verbose linkBins node-sass@3.4.2
+13 verbose link bins [ { 'node-sass': 'bin/node-sass' },
+13 verbose link bins   '/home/vagrant/Code/Laravel/node_modules/.bin',
+13 verbose link bins   false ]
+14 verbose linkMans node-sass@3.4.2
+15 verbose rebuildBundles node-sass@3.4.2
+16 silly gentlyRm /home/vagrant/Code/Laravel/node_modules/.bin/node-sass is being purged
+17 verbose gentlyRm don't care about contents; nuking /home/vagrant/Code/Laravel/node_modules/.bin/node-sass
+18 silly vacuum-fs purging /home/vagrant/Code/Laravel/node_modules/.bin/node-sass
+19 silly vacuum-fs quitting because other entries in /home/vagrant/Code/Laravel/node_modules/.bin
+20 verbose stack Error: EPROTO: protocol error, symlink '../node-sass/bin/node-sass' -> '/home/vagrant/Code/Laravel/node_modules/.bin/node-sass'
+20 verbose stack     at Error (native)
+21 verbose cwd /home/vagrant/Code/Laravel
+22 error Linux 3.19.0-25-generic
+23 error argv "/usr/bin/nodejs" "/usr/bin/npm" "rebuild" "node-sass"
+24 error node v5.7.0
+25 error npm  v3.6.0
+26 error path ../node-sass/bin/node-sass
+27 error code EPROTO
+28 error errno -71
+29 error syscall symlink
+30 error EPROTO: protocol error, symlink '../node-sass/bin/node-sass' -> '/home/vagrant/Code/Laravel/node_modules/.bin/node-sass'
+31 error If you need help, you may report this error at:
+31 error     <https://github.com/npm/npm/issues>
+32 verbose exit [ -71, true ]
